@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.container {
+  padding: 1.5rem;
+}
+
+.container nav {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container nav ul .logo {
+  margin-right: auto;
+}
+
+.container nav ul li {
+  list-style: none;
+}
+
+.container nav ul li:not(:last-child) {
+  padding-right: .75rem;
+}
+
+.container nav ul li a,
+.container nav ul li a:link {
+  text-decoration: none;
+  color: #191b22;
+}
+
+.container nav ul li a:hover,
+.container nav ul li a:link:hover {
+  color: #e84393;
+}
+
+.container main {
+  padding: 2.25rem 20vw;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: 'Open-Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #292929;
+}
+
+@media (max-width: 600px) {
+  .container main {
+    padding: 1rem 5vw;
+  }
+}
+
+.container main .first-content h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.883rem;
+}
+
+@media (max-width: 600px) {
+  .container main .first-content h2 {
+    font-size: 3.662rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container main .first-content p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container main .first-content p {
+    font-size: 3rem;
+  }
+}
+
+.container main .first-content p:not(:last-child) {
+  padding: 1rem 0;
+}
+/*# sourceMappingURL=i.css.map */

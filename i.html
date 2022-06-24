@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/favicon_io/pencil_tip.svg" type="image/svg+xml" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="alternate icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="alternate icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon_io/site.webmanifest" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Open+Sans|Poppins|Quicksand:400,500,600,700|Roboto:400,400i,500|Niconne&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="i.css" />
+    <title>FOCUS ZONE</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li class="logo">
+            <a href="#">RCPML</a>
+          </li>
+          <li class="projects">
+            <a href="#">PROJECTS</a>
+          </li>
+          <li class="blog">
+            <a href="#">BLOG</a>
+          </li>
+          <li class="contact">
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="first-content">
+          <h2>MOVE FORWARD</h2>
+          <p>
+            We use the @media element to initiate our media query. We place our
+            breakpoint within the parenthesis. You can see the max-width keyword
+            as well. This singles out screen widths of 450px or less. If these
+            conditions are met, the code that follows will be implemented.
+          </p>
+          <p>
+            To ensure that only one media query is in effect at time, make the
+            numbers (or whatever) such that that is possible. It may be easier
+            to mentally manage them this way.
+          </p>
+          <p>
+            Media queries add no specificity to the selectors they contain, but
+            source order still matters. The above will work because they are
+            ordered correctly. Swap that order and at browser window widths
+            above 800px the background would be red, perhaps unintuitively.
+          </p>
+          <p>
+            Responsive typography with viewport units is really easy to
+            implement, just declare the base font-size using vw; as long as you
+            are not using pixels elsewhere in your stylesheet, other units are
+            relative to the base font-size, (which is now viewport units) so
+            they will all scale accordingly.
+          </p>
+          <p>
+            Put simply, it is a function that takes a value within a range and
+            works out what the new value would be if applied to a different
+            range. I can take the current viewport width (100vw) as input into
+            this ‘function’. For example if I had viewport range of 500px to
+            1000px, and let’s imagine the current viewport is 750px, I then
+            apply this to a font-size range. If my font-size range was 20px to
+            30px, because the input of 750px is right in the middle of 500px and
+            1000px my new font-size will also be right in the middle, 25px.
+            Simple right?
+          </p>
+        </section>
+      </main>
+    </div>
+    <!-- <script src="/lodash.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.19/lodash.min.js" integrity="sha512-/A6lxqQJVUIMnx8B/bx/ERfeuJnqoWPJdUxN8aBj+tZYL35O998ry7UUGoN65PSUNlJNrqKZrDENi4i1c3zy4Q==" crossorigin="anonymous"></script> -->
+    <script src="i.js"></script>
+  </body>
+</html>
