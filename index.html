@@ -41,7 +41,7 @@
       <nav class="navbar">
         <ul>
           <li class="logo">
-            <a href="#">RCPML</a>
+            <a href="#" class="link-active">RCPML</a>
           </li>
           <li class="projects">
             <a href="#">Tools</a>
@@ -60,47 +60,15 @@
 
       <main>
         <section class="first-content">
-          <h2>MOVE FORWARD</h2>
-          <p>
-            We use the @media element to initiate our media query. We place our
-            breakpoint within the parenthesis. You can see the max-width keyword
-            as well. This singles out screen widths of 450px or less. If these
-            conditions are met, the code that follows will be implemented.
-          </p>
-          <p>
-            To ensure that only one media query is in effect at time, make the
-            numbers (or whatever) such that that is possible. It may be easier
-            to mentally manage them this way.
-          </p>
-          <p>
-            Media queries add no specificity to the selectors they contain, but
-            source order still matters. The above will work because they are
-            ordered correctly. Swap that order and at browser window widths
-            above 800px the background would be red, perhaps unintuitively.
-          </p>
-          <p>
-            Responsive typography with viewport units is really easy to
-            implement, just declare the base font-size using vw; as long as you
-            are not using pixels elsewhere in your stylesheet, other units are
-            relative to the base font-size, (which is now viewport units) so
-            they will all scale accordingly.
-          </p>
-          <p>
-            Put simply, it is a function that takes a value within a range and
-            works out what the new value would be if applied to a different
-            range. I can take the current viewport width (100vw) as input into
-            this ‘function’. For example if I had viewport range of 500px to
-            1000px, and let’s imagine the current viewport is 750px, I then
-            apply this to a font-size range. If my font-size range was 20px to
-            30px, because the input of 750px is right in the middle of 500px and
-            1000px my new font-size will also be right in the middle, 25px.
-            Simple right?
-          </p>
+          <h2 class="text-align-center">TOOLS AT YOUR DISPOSAL</h2>
+          <div class="cards">
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores quae perferendis sed optio cumque sequi adipisci officia voluptatibus distinctio. Impedit labore magnam ullam, rem expedita id aliquam veniam nihil.</div>
+            <div class="card">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium beatae nihil quisquam accusamus vitae minima laboriosam qui hic sunt necessitatibus. </div>
+            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam, incidunt error quas ratione unde praesentium quibusdam sapiente ad magni similique, impedit beatae. Error reiciendis suscipit obcaecati fuga ut. Dolor.</div>
+          </div>
         </section>
       </main>
     </div>
-    <!-- <script src="/lodash.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.19/lodash.min.js" integrity="sha512-/A6lxqQJVUIMnx8B/bx/ERfeuJnqoWPJdUxN8aBj+tZYL35O998ry7UUGoN65PSUNlJNrqKZrDENi4i1c3zy4Q==" crossorigin="anonymous"></script> -->
-    <script src="i.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

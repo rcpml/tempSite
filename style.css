@@ -24,6 +24,10 @@ body {
   padding: 1.5rem;
 }
 
+.container .text-align-center {
+  text-align: center;
+}
+
 .container nav {
   font-family: "Lato", sans-serif;
   font-size: 2rem;
@@ -49,8 +53,12 @@ body {
   list-style: none;
 }
 
+.container nav ul li .link-active {
+  color: #e84393;
+}
+
 .container nav ul li:not(:last-child) {
-  padding-right: .75rem;
+  padding-right: 1rem;
 }
 
 .container nav ul li a,
@@ -79,6 +87,10 @@ body {
   }
 }
 
+.container main .first-content {
+  border: 5px solid coral;
+}
+
 .container main .first-content h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 4.883rem;
@@ -104,5 +116,29 @@ body {
 
 .container main .first-content p:not(:last-child) {
   padding: 1rem 0;
+}
+
+.container main .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.container main .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: max-content 200px 1fr;
+      grid-template-rows: -webkit-max-content 200px 1fr;
+      grid-template-rows: max-content 200px 1fr;
+  border: 3px solid skyblue;
+}
+
+.container main .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
