@@ -27,7 +27,7 @@ body {
 .container nav {
   font-family: "Lato", sans-serif;
   font-size: 2rem;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .container nav ul {
@@ -105,4 +105,4 @@ body {
 .container main .first-content p:not(:last-child) {
   padding: 1rem 0;
 }
-/*# sourceMappingURL=i.css.map */
+/*# sourceMappingURL=style.css.map */
